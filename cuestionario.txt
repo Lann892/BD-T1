@@ -1,0 +1,82 @@
+--> Describe los principales problemas si se guardara la información en un archivo de texto cuando deseamos: <--
+--> Buscar un registro específico en el archivo
+--> Agregar nuevos productos
+
+Si se guarda la información en un archivo de texto, los principales problemas son:
+
+--> Búsqueda de un registro específico: La búsqueda de un registro específico puede ser lenta y tediosa, ya que tendría que abrir el archivo de texto y buscar manualmente el registro deseado. Además, no existe una estructura de índice para hacer la búsqueda más rápida y eficiente.
+
+--> Agregar nuevos productos: Para agregar nuevos productos, se tendría que abrir el archivo de texto, añadir el nuevo producto al final del archivo y guardar los cambios. Esto puede ser ineficiente, especialmente si el archivo de texto es grande y contiene muchos registros. Además, si varios usuarios intentan agregar productos al mismo tiempo, puede haber conflictos y problemas de sincronización.
+
+Estos problemas se resuelven al utilizar una base de datos en lugar de un archivo de texto. Las bases de datos ofrecen una estructura de índice para hacer búsquedas más rápidas y eficientes, así como una forma más sencilla de agregar nuevos registros sin conflictos.
+
+--> ¿Qué problemas tuviste para visualizar los datos? <--
+En un principio fue un poco tedioso el acomodar la información para imprimirla correctamente en la consola, el formato principal con el que se presentaba la información era en JSON, al final solo tuve que imprimirlo con otro formato en la consola para que se visualizara mejor.
+
+--> ¿Qué problemas tuviste para visualizar los datos? <--
+
+Depende de las necesidades específicas de almacenamiento y gestión de datos. En general, las hojas de cálculo pueden ser útiles para almacenar y gestionar información cuando se requiere una solución rápida y sencilla para pequeñas cantidades de datos. Las hojas de cálculo también pueden ser útiles para hacer análisis y cálculos básicos sobre los datos.
+
+Sin embargo, para grandes cantidades de datos, las hojas de cálculo pueden ser ineficientes y limitantes. Puede ser difícil de mantener la consistencia y la integridad de los datos a medida que se agrega más información. Además, las hojas de cálculo no ofrecen una forma segura y eficiente de compartir y colaborar en los datos con otros usuarios.
+
+En estos casos, es recomendable utilizar una base de datos, que ofrece una estructura de datos más robusta y flexible, así como herramientas más avanzadas para la gestión y el análisis de datos.
+
+--> ¿Qué diferencias existen entre una base de datos y una hoja de cálculo? <--
+
+Las diferencias entre una base de datos y una hoja de cálculo incluyen:
+
+Estructura de datos: Una base de datos tiene una estructura de datos más rigurosa y organizada que una hoja de cálculo. Las bases de datos tienen tablas y relaciones definidas, mientras que las hojas de cálculo son simples matrices de datos sin una estructura definida.
+
+Scalabilidad: Las bases de datos son más escalables que las hojas de cálculo, ya que pueden manejar grandes cantidades de datos y usuarios simultáneos. Las hojas de cálculo pueden ser lentas y propensas a errores con grandes cantidades de datos.
+
+Integridad de datos: Las bases de datos tienen mecanismos integrados para garantizar la integridad de los datos, como restricciones y reglas de negocio. Las hojas de cálculo no tienen estos mecanismos y son más propensas a errores y problemas de consistencia.
+
+Análisis de datos: Las bases de datos ofrecen herramientas avanzadas para el análisis de datos, como consultas y vistas, mientras que las hojas de cálculo son más limitadas en términos de análisis de datos.
+
+Colaboración: Las bases de datos ofrecen una forma segura y eficiente de compartir y colaborar en los datos con otros usuarios, mientras que las hojas de cálculo pueden ser difíciles de compartir y colaborar en una manera controlada.
+
+En general, una hoja de cálculo es una solución adecuada para pequeñas cantidades de datos y tareas simples, mientras que una base de datos es la mejor opción para grandes cantidades de datos y tareas más complejas de gestión y análisis de datos.
+
+--> ¿Qué complejidad tienen las consultas en una hoja de cálculo y en una base de datos? <--
+
+Las consultas en una hoja de cálculo y en una base de datos tienen diferentes niveles de complejidad:
+
+Hoja de cálculo: Las consultas en una hoja de cálculo pueden ser simples y requieren un conocimiento básico de funciones y fórmulas. Sin embargo, a medida que los datos se vuelven más complejos y las consultas más complejas, las hojas de cálculo pueden volverse ineficientes y limitantes.
+
+Base de datos: Las consultas en una base de datos pueden ser más complejas y requieren un conocimiento de lenguajes de consulta, como SQL. Las bases de datos permiten consultas más avanzadas, como agregaciones, unión de tablas, subconsultas, etc. Sin embargo, la complejidad de las consultas también depende de la estructura de la base de datos y la organización de los datos.
+
+En general, las consultas en una base de datos son más complejas que en una hoja de cálculo, pero ofrecen más flexibilidad y eficiencia en el análisis de los datos.
+
+--> ¿Cuál fue el primer sistema manejador de base de datos que se creó? <--
+
+El primer sistema manejador de base de datos que se creó fue el Sistema de Gestión de Bases de Datos (DBMS, por sus siglas en inglés) denominado Integrated Data Store (IDS), desarrollado en 1963 por Charles W. Bachman. Este sistema fue creado para manejar grandes cantidades de datos y mejorar la eficiencia en la recuperación de información en grandes organizaciones. IDS estableció las bases para el desarrollo de futuros sistemas manejadores de bases de datos y sentó las bases para la evolución de la tecnología de bases de datos moderna.
+
+--> ¿Qué otro tipo de sistemas persistentes se te ocurren? <--
+
+Además de los sistemas manejadores de bases de datos, hay otros tipos de sistemas persistentes:
+
+Sistemas de Archivos: Son sistemas que permiten almacenar y organizar archivos en un sistema de almacenamiento, como un disco duro o un dispositivo de almacenamiento en la nube.
+
+Sistemas de Archivos Distribuidos: Son sistemas que permiten almacenar archivos en diferentes nodos en una red y permiten el acceso a ellos desde cualquier lugar.
+
+Sistemas de Almacenamiento en Objetos: Son sistemas que permiten almacenar objetos complejos, como imágenes, videos, audio, etc., y que permiten la recuperación de información a partir de estos objetos.
+
+Sistemas de Almacenamiento de Columnas: Son sistemas de almacenamiento que organizan los datos en columnas en lugar de filas, lo que los hace más eficientes para aplicaciones que requieren la búsqueda y análisis de datos.
+
+Estos son algunos ejemplos de otros tipos de sistemas persistentes, pero hay muchos más. La elección de un sistema persistente depende de las necesidades específicas de la aplicación y de los datos que se desea almacenar.
+
+--> ¿En qué casos las hojas de cálculo son buenas para guardar información? <--
+
+Las hojas de cálculo son una excelente opción para guardar información en los siguientes casos:
+
+Pequeñas cantidades de datos: Las hojas de cálculo son adecuadas para manejar pequeñas cantidades de datos, ya que son fáciles de usar y ofrecen una buena visibilidad y accesibilidad a los datos.
+
+Datos estructurados: Las hojas de cálculo son adecuadas para datos estructurados que se pueden organizar en filas y columnas.
+
+Análisis de datos simples: Las hojas de cálculo son adecuadas para realizar análisis de datos simples, como cálculos de suma, promedios, etc.
+
+Collaboración: Las hojas de cálculo permiten la colaboración en tiempo real con varios usuarios, lo que es útil en equipos pequeños o para proyectos temporales.
+
+Flexibilidad: Las hojas de cálculo son muy flexibles y permiten la personalización de las celdas, la creación de gráficos y la automatización de tareas simples mediante fórmulas y macros.
+
+En resumen, las hojas de cálculo son una excelente opción para almacenar información cuando se requiere una solución rápida, fácil y flexible, y cuando las cantidades de datos son pequeñas y se pueden organizar en una estructura de tabla.
